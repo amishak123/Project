@@ -1,0 +1,43 @@
+body{
+    background-image: url("g2.jpg");
+    background-size: cover;
+}
+
+.box{
+    width: 640px;
+    height: 400px;
+    margin: 50px auto;
+    color: green;
+    background-color: rgba(0, 0,0,.5);
+    border: 10px solid green;
+    padding: 40px;
+ 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin:content-box ;
+}
+
+.login-box{
+    width: 280px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50% , 50px);
+    color: whitesmoke;
+}
+
+.login-box h1{
+  
+    font-size: 50 px;
+    color: greenyellow;
+    border-bottom: 1px solid;
+}
+
+.text-box{
+    width: 100%;
+    overflow: hidden;
+    font-size:20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid;
+}
